@@ -256,6 +256,11 @@ struct ids_database database[] = {
 	},
 	{
 		.type = "mmc",
+		.id = 0x90,
+		.manufacturer = "SkHynix",
+	},
+	{
+		.type = "mmc",
 		.id = 0xfe,
 		.manufacturer = "Micron",
 	},
