@@ -231,6 +231,11 @@ struct ids_database database[] = {
 	},
 	{
 		.type = "mmc",
+		.id = 0x2c,
+		.manufacturer = "Kingston",
+	},
+	{
+		.type = "mmc",
 		.id = 0x37,
 		.manufacturer = "KingMax",
 	},
@@ -238,11 +243,6 @@ struct ids_database database[] = {
 		.type = "mmc",
 		.id = 0x44,
 		.manufacturer = "ATP",
-	},
-	{
-		.type = "mmc",
-		.id = 0x2c,
-		.manufacturer = "Kingston",
 	},
 	{
 		.type = "mmc",
