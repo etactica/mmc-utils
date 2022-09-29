@@ -196,6 +196,11 @@ struct ids_database database[] = {
 	},
 	{
 		.type = "mmc",
+		.id = 0x01,
+		.manufacturer = "Cypress/SkHynix/SkyHigh", /* might be _just_ cypress/skyhigh? */
+	},
+	{
+		.type = "mmc",
 		.id = 0x02,
 		.manufacturer = "Kingston/SanDisk",
 	},
